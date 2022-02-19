@@ -1,0 +1,19 @@
+{
+  "name": "project",
+  "version": "1.0.1",
+  "description": "eleventy blog website",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --input=src --serve",
+    "build": "npx @11ty/eleventy --input=src"
+  },
+  "keywords": [
+    "eleventy",
+    "blog"
+  ],
+  "author": "Marco Guido",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  }
+}
