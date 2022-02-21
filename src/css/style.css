@@ -1,0 +1,12 @@
+body {
+    background: pink;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+}
+
+img {
+    max-height: 20rem;
+    max-width: 20rem;
+}

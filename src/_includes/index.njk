@@ -5,6 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>{{ title }}</title>
+        <link rel="stylesheet" href="{{ './css/style.css' | url }}">
+        <link rel="stylesheet" href="{{ './css/partials/profile.css' | url }}">
+        
     </head>
     <body>
         <header>
@@ -12,6 +15,11 @@
                 {{ title}}
             </h1>
         </header>
+
+        <figure>
+            <img src="./img/profile.jpg" alt="profile picture">
+        </figure>
+
         <main>
             {{ content | safe }}
         </main>
